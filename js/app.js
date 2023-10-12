@@ -23,14 +23,14 @@ function addTask() {   // Adding costs
    const valuePrice = inputPrice.value;
   
    if (!valueRate || !valuePrice) {
-      alert('Пожалуйста, заполните оба поля.');
+      alert('Please fill in both fields.');
       return;
    }
 
    const numericPrice = parseFloat(valuePrice);
 
    if (isNaN(numericPrice)) {
-      alert('Пожалуйста, введите корректное число в поле "Ціна"');
+      alert('Please enter the correct number in the field "Price');
       return;
    }
 
